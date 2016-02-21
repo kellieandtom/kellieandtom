@@ -4,5 +4,11 @@
   $template_theme = 'wedding';
 ?>
 <?php include("inc/header.php"); ?>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<ul>
+  <li>Photo of venue
+  <li>Time
+  <li>Attire
+  <li>Map of where is it (link to directions)
+  <li>Parking information
+</ul>
 <?php include("inc/footer.php"); ?>

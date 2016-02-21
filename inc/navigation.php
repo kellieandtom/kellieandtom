@@ -1,10 +1,10 @@
 <!-- Nav -->
 <nav data-nav>
-  <a href="<?php echo $site; ?>" class=brand>Kellie &amp; Tom</a>
+
   <input type=checkbox id=menu>
   <label for=menu><span>≡</span></label>
-  <!-- Menu Loop -->
 
+  <!-- Menu Loop -->
   <input type=radio name=topNav>
   <label>
     <span><a href=<?php echo $site; ?>/about.php>About Us</a></span>

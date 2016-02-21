@@ -14,6 +14,7 @@
   <link href=http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,600,700,900 rel=stylesheet>
   <link href=http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic rel=stylesheet>
   <link href=http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic rel=stylesheet>
+  <link href=<?php echo $site; ?>/fonts/alegance/alegance.css rel=stylesheet>
   <link href=<?php echo $site; ?>/plugins/buttons/data-buttons.css rel=stylesheet>
   <link href=<?php echo $site; ?>/plugins/notifications/notifications.css rel=stylesheet>
   <link href=<?php echo $site; ?>/plugins/tooltips/data-tooltips.css rel=stylesheet>
@@ -30,13 +31,13 @@
   <link href=<?php echo $site; ?>/css/themes/wedding.css rel=stylesheet>
 </head>
 <body class=<?php echo "$template"; ?>>
+  <section id=hero>
+    <h1>Kellie &amp; Tom</h1>
+    <h2>November 6th, 2016</h2>
+    <h3>Buffalo, NY</h3>
+  </section>
   <?php include("navigation.php"); ?>
   <section data-wrapper class=fixed></section>
   <script src=<?php echo $site ?>/plugins/notifications/notifications.js></script>
   <link href=<?php echo $site; ?>/plugins/modals/data-modals.css rel=stylesheet>
   <main>
-    <section id=hero>
-      <h1>Kellie &amp; Tom</h1>
-      <h2>November 6th, 2016</h2>
-      <h3>Buffalo, NY</h3>
-    </section>

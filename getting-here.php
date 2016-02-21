@@ -4,5 +4,11 @@
   $template_theme = 'wedding';
 ?>
 <?php include("inc/header.php"); ?>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>Weather</h4>
+<p>For those who have never been to Buffalo, you may be wondering what to expect from the weather! The typical weather in early November is around 50°F (10°C) during the daytime and 38°F (3°C) overnight. While you likely won't have to worry about snow, definitely bring a jacket!</p>
+<ul>
+  <li>Buffalo airport
+  <li>By car
+  <li>Crossing the border
+</ul>
 <?php include("inc/footer.php"); ?>

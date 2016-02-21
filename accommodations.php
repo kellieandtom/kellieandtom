@@ -4,5 +4,17 @@
   $template_theme = 'wedding';
 ?>
 <?php include("inc/header.php"); ?>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>Holiday Inn - Buffalo Downtown</h4>
+<p>Rooms starting at $120</p>
+<p><strong>.3 miles</strong> from ceremony site</p>
+
+<h4>Best Western on the Avenue</h4>
+<p>Rooms starting at $130</p>
+<p><strong>.5 miles</strong> from ceremony site</p>
+
+<h4>The Mansion on Delaware Avenue</h4>
+<p>Rooms starting at $300</p>
+
+<h4>Hampton Inn & Suites</h4>
+<p>Rooms starting at $200</p>
 <?php include("inc/footer.php"); ?>

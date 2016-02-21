@@ -1,0 +1,9 @@
+/* Alegance Web Font */
+@font-face{
+  font-family: 'alegance';
+  src: url('alegance-webfont.eot');
+  src: url('alegance-webfont.eot?iefix') format('eot'),
+       url('alegance-webfont.woff') format('woff'),
+       url('alegance-webfont.ttf') format('truetype'),
+       url('alegance-webfont.svg#webfont') format('svg');
+}

@@ -1,1 +1,38 @@
 /* Kellie & Tom's Wedding Stylesheet */
+
+/* Set H1 and h4 to Alegance font */
+[data-theme=wedding] h1,
+[data-theme=wedding] h4 {
+  font-weight: normal;
+  letter-spacing: 0;
+  font-family: alegance, 'Playfair Display', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+
+/* Set 'PT Serif' or a very nice fallback for other text */
+[data-theme=wedding] {
+  font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+
+[data-theme=wedding] [data-nav] {
+  text-align: center;
+}
+
+/* Hero styling */
+[data-theme=wedding] #hero {
+  text-align: center;
+}
+
+[data-theme=wedding] h1 {
+  font-size: 1000%;
+}
+
+[data-theme=wedding] h4 {
+  font-size: 500%;
+}
+
+/* Fix for brand-less mobile navigation */
+@media (max-width: 499px) {
+  [data-nav] label[for=menu] {
+    z-index: 500;
+  }
+}

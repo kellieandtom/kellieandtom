@@ -4,5 +4,16 @@
   $template_theme = 'wedding';
 ?>
 <?php include("inc/header.php"); ?>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>About Kellie</h4>
+<ul>
+  <li>intro to Kellie for Tom's side
+</ul>
+
+<h4>About Tom</h4>
+<ul>
+  <li>into to Tom for Kellie's side
+</ul>
+
+<h4>Our Story</h4>
+
 <?php include("inc/footer.php"); ?>
