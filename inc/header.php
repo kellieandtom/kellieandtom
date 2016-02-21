@@ -6,7 +6,7 @@
 <head>
   <meta charset=utf-8>
   <meta name=viewport content="width=device-width, initial-scale=1">
-  <title><?php echo "$template_title"; ?></title>
+  <title><?php echo "$template_title"; ?> | Hodgins–Morgan Wedding</title>
 <link href=http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic rel=stylesheet>
   <link href=http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic rel=stylesheet>
   <link href=http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800 rel=stylesheet>
@@ -27,6 +27,7 @@
   <link href=<?php echo $site; ?>/css/themes/green.css rel=stylesheet>
   <link href=<?php echo $site; ?>/css/themes/swiss.css rel=stylesheet>
   <link href=<?php echo $site; ?>/css/themes/rfi.css rel=stylesheet>
+  <link href=<?php echo $site; ?>/css/themes/wedding.css rel=stylesheet>
 </head>
 <body class=<?php echo "$template"; ?>>
   <?php include("navigation.php"); ?>
@@ -34,3 +35,8 @@
   <script src=<?php echo $site ?>/plugins/notifications/notifications.js></script>
   <link href=<?php echo $site; ?>/plugins/modals/data-modals.css rel=stylesheet>
   <main>
+    <section id=hero>
+      <h1>Kellie &amp; Tom</h1>
+      <h2>November 6th, 2016</h2>
+      <h3>Buffalo, NY</h3>
+    </section>
