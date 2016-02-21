@@ -1,37 +1,39 @@
 <!-- Nav -->
 <nav data-nav>
-  <a href="<?php echo $site; ?>" class=brand>The Template Factory</a>
+  <a href="<?php echo $site; ?>" class=brand>Kellie &amp; Tom</a>
   <input type=checkbox id=menu>
   <label for=menu><span>≡</span></label>
   <!-- Menu Loop -->
-  <input type=radio name=topNav id=themes>
-  <label for=themes>
-    <span>Themes</span>
+
+  <input type=radio name=topNav>
+  <label>
+    <span><a href=<?php echo $site; ?>/about.php>About Us</a></span>
+  </label>
+
+  <input type=radio name=topNav id=wedding>
+  <label for=wedding>
+    <span>Wedding</span>
     <div>
-      <a href=<?php echo $site; ?>/themes/default.php>Default Theme</a>
-      <a href=<?php echo $site; ?>/themes/dark.php>Dark Theme</a>
-      <a href=<?php echo $site; ?>/themes/code.php>Code Theme</a>
-      <a href=<?php echo $site; ?>/themes/book.php>Book Theme</a>
-      <a href=<?php echo $site; ?>/themes/green.php>Green Style</a>
-      <a href=<?php echo $site; ?>/themes/swiss.php>Swiss Style</a>
-      <a href=<?php echo $site; ?>/themes/rfi.php>RFI Style</a>
+      <a href=<?php echo $site; ?>/ceremony.php>Ceremony</a>
+      <a href=<?php echo $site; ?>/reception.php>Reception</a>
     </div>
   </label>
-  <input type=radio name=topNav id=plugins>
-  <label for=plugins>
-    <span>Plugins</span>
+
+  <input type=radio name=topNav id=travel>
+  <label for=travel>
+    <span>Travel</span>
     <div>
-      <a href=<?php echo $site; ?>/plugins/form>Order Form</a>
-      <a href=<?php echo $site; ?>/plugins/video-scaling>Video Scaling</a>
-      <a href=<?php echo $site; ?>/plugins/notifications>Notifications</a>
-      <a href=<?php echo $site; ?>/plugins/tooltips>Tooltips</a>
-      <a href=<?php echo $site; ?>/plugins/tables>Responsive Tables</a>
-      <a href=<?php echo $site; ?>/plugins/modals>Reponsive Modals</a>
-      <a href=<?php echo $site; ?>/plugins/buttons>Buttons</a>
-      <a href=<?php echo $site; ?>/plugins/nav>Responsive Nav</a>
-      <a href=<?php echo $site; ?>/plugins/match-height>Match Height</a>
+      <a href=<?php echo $site; ?>/getting-here.php>Getting Here</a>
+      <a href=<?php echo $site; ?>/accommodations.php>Accommodations</a>
+      <a href=<?php echo $site; ?>/things-to-do.php>Things to Do</a>
     </div>
   </label>
+
+  <input type=radio name=topNav>
+  <label>
+    <span><a href=<?php echo $site; ?>/registry.php>Registry</a></span>
+  </label>
+
   <!-- /Menu Loop -->
   <input type=radio name=topNav id=reset>
   <label for=reset></label>

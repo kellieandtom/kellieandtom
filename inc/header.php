@@ -1,5 +1,5 @@
 <?php
-  $site = "http://staticresource.com/template";
+  $site = "http://staticresource.com/kellieandtom";
 ?>
 <!DOCTYPE html>
 <html data-theme=<?php echo "$template_theme"; ?>>
