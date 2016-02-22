@@ -1,7 +1,7 @@
 <?php
 
 // Let's execute 'git pull' and send the viewer back to the index with a query string
-exec('sh pull.sh');
+$output = exec('sh pull.sh');
 header ('Location: ../update/?updated=1');
 
 ?>
