@@ -1,4 +1,7 @@
-# The Template Factory
+# KellieAndTom.com
+## A Template Factory project
+
+## What is the Template Factory?
 
 The Template Factory is a small PHP-based website template written simply in PHP, HTML, CSS and JavaScript. Powered by EQCSS for element queries, plus lightweight plugins for tooltips, modals, notifications, and more!
 
