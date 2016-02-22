@@ -1,7 +1,7 @@
 <?php
 
-// Let's execute the updater script and send the viewer back to the index with a query string
-$output = exec('cd ../ | git pull');
+// Let's execute 'git pull' and send the viewer back to the index with a query string
+exec('sh pull.sh');
 header ('Location: ../update/?updated=1');
 
 ?>
