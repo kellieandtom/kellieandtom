@@ -5,7 +5,7 @@
 ?>
 <?php include("inc/header.php"); ?>
 
-<h4>Accommodations<h4>
+<h4>Accommodations</h4>
 <p>There are many great hotel options in the downtown Buffalo area. Here is a list of hotels at varying price points, 
 all extremely close to our wedding location! All of the hotels we've listed here are highly rated.</p>
 
