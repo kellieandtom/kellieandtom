@@ -6,7 +6,7 @@
 <head>
   <meta charset=utf-8>
   <meta name=viewport content="width=device-width, initial-scale=1">
-  <title><?php echo "$template_title"; ?> | Hodgins–Morgan Wedding</title>
+  <title><?php echo "$template_title"; ?> | Morgan–Hodgins Wedding</title>
 <link href=http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic rel=stylesheet>
   <link href=http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic rel=stylesheet>
   <link href=http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800 rel=stylesheet>
