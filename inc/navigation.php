@@ -5,8 +5,14 @@
   <label for=menu><span>≡</span></label>
 
   <!-- Menu Loop -->
-  <input type=radio name=topNav>
-  <label>
+  <input type=radio name=topNav id=home>
+  <label for=home>
+    <span><a href=<?php echo $site; ?>>Home</a></span>
+  </label>
+
+
+  <input type=radio name=topNav id=about>
+  <label for=about>
     <span><a href=<?php echo $site; ?>/about.php>About Us</a></span>
   </label>
 

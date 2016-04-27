@@ -1,0 +1,9 @@
+/* Alegance Web Font */
+@font-face{
+  font-family: 'ameliascript-fine';
+  src: url('ameliascript-fineversion-webfont.eot');
+  src: url('ameliascript-fineversion-webfont.eot?iefix') format('eot'),
+       url('ameliascript-fineversion-webfont.woff') format('woff'),
+       url('ameliascript-fineversion-webfont.ttf') format('truetype'),
+       url('ameliascript-fineversion-webfont.svg#webfont') format('svg');
+}

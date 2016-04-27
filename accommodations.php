@@ -5,11 +5,11 @@
 ?>
 <?php include("inc/header.php"); ?>
 
-<h5>Accommodations</h5>
-<p>There are many great hotel options in the downtown Buffalo area. Here is a list of hotels at varying price points, 
+<h2>Accommodations</h2>
+<p>There are many great hotel options in the downtown Buffalo area. Here is a list of hotels at varying price points,
 all extremely close to our wedding location! All of the hotels we've listed here are highly rated.</p>
 
-<h5>Chain Hotels</h5>
+<h3>Chain Hotels</h3>
 
 <h4><a href="http://hibuffalodowntown.com/">Holiday Inn - Buffalo Downtown</a></h4>
 <p>Rooms starting at $120 USD</p>
@@ -35,7 +35,7 @@ all extremely close to our wedding location! All of the hotels we've listed here
 <p>Rooms starting at $230</p>
 <p>2 miles from ceremony site, 1/2 mile from reception site</p>
 
-<h5>Unique/Luxury/Boutique Hotels</h5>
+<h3>Unique/Luxury/Boutique Hotels</h3>
 
 <h4><a href="http://www.mansionondelaware.com/">The Mansion on Delaware</a></h4>
 <p>Rooms starting at $275 USD</p>
@@ -52,7 +52,5 @@ all extremely close to our wedding location! All of the hotels we've listed here
 <h4><a href="http://buffalobrewerydistrict.com/lafayette/home">Hotel @ The Lafayette</h4></a>
 <p>Rooms starting at $200 USD</p>
 <p>2 miles from ceremony site, 1 mile from reception site</p>
-
-
 
 <?php include("inc/footer.php"); ?>

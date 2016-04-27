@@ -1,0 +1,9 @@
+/* Alegance Web Font */
+@font-face{
+  font-family: 'ameliascript-draft';
+  src: url('ameliascript-draftversion-webfont.eot');
+  src: url('ameliascript-draftversion-webfont.eot?iefix') format('eot'),
+       url('ameliascript-draftversion-webfont.woff') format('woff'),
+       url('ameliascript-draftversion-webfont.ttf') format('truetype'),
+       url('ameliascript-draftversion-webfont.svg#webfont') format('svg');
+}

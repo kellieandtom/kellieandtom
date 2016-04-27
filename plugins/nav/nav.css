@@ -3,6 +3,8 @@
   position: relative;
   font-size: 14pt;
   line-height: 1;
+  opacity: 0;
+  transition: opacity .1s ease-in-out;
 }
 [data-nav] .brand {
   display: block;
@@ -27,9 +29,8 @@
 [data-nav] label span,
 [data-nav] label > div a {
   display: block;
-  padding: 1em !important;
+  padding: 0;
   margin: 0 !important;
-  color: #555;
   text-shadow: none;
   font-size: 12pt;
   font-weight: 400;
@@ -44,6 +45,25 @@
   position: relative;
   transition: color .1s ease-in-out;
 }
+@element '[data-nav] label div' {
+  $prev {
+    padding: 1em !important;
+  }
+}
+[data-nav] label span a {
+  display: inline-block;
+}
+[data-nav] label span a,
+[data-nav] label > div a {
+  padding: 1em;
+}
+[data-nav] label > span,
+[data-nav] label span a,
+[data-nav] label > div a {
+  color: #333;
+}
+[data-nav] label > span:hover,
+[data-nav] label > span:focus,
 [data-nav] label span:hover,
 [data-nav] label span:focus,
 [data-nav] a:hover,
@@ -65,7 +85,7 @@
   background: ;
   position: relative;
   width: 100%;
-  right: 0;
+  left: 0;
   z-index: 300;
   transition: all .5s ease-in-out;
 }
@@ -164,7 +184,7 @@
     min-width: 200px;
     max-width: 500px;
     word-break: normal;
-    right: 0;
+    left: 0;
     text-align: left;
     z-index: 500;
     transition: all .5s ease-in-out;
@@ -405,5 +425,10 @@
     border: 1px solid rgba(0,0,0,.05);
     border-top: none;
     box-shadow: rgba(0,0,0,.05) 0 3px 3px;
+  }
+}
+@element '[data-nav]' {
+  $this {
+    opacity: 1;
   }
 }

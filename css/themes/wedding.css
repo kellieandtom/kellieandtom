@@ -1,18 +1,44 @@
 /* Kellie & Tom's Wedding Stylesheet */
+[data-theme=wedding] {
+  background: white;
+}
 
-/* Set H1 and h4 to Alegance font */
+/* Set Headings to Ameliascript font */
 [data-theme=wedding] h1,
 [data-theme=wedding] h5 {
   font-weight: normal;
   letter-spacing: 0;
-  font-family: alegance, 'Playfair Display', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  margin-bottom: 0;
+  font-family: 'ameliascript-fine', alegance, 'Playfair Display', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme=wedding] h2,
+[data-theme=wedding] h3,
+[data-theme=wedding] h4 {
+  font-weight: 400;
+   font-family: Lora, 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme=wedding] p:after,
+[data-theme=wedding] h2:before {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-/* Set 'PT Serif' or a very nice fallback for other text */
+@media (min-width: 500px) {
+  .float-left {
+    margin: 0 2em 2em 0;
+  }
+  .float-right {
+    margin: 0 0 2em 2em;
+  }
+}
+
+/* Set 'Lora' or a very nice serif as a fallback for text */
 [data-theme=wedding] {
-  font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
 
+/* Center align navigation for mobile */
 [data-theme=wedding] [data-nav] {
   text-align: center;
 }
@@ -20,14 +46,53 @@
 /* Hero styling */
 [data-theme=wedding] #hero {
   text-align: center;
+  background: url('//kellieandtom.s3.amazonaws.com/009.jpg') no-repeat center 60%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 13em 0;
+  font-size: 10pt;
 }
-
-[data-theme=wedding] h1 {
-  font-size: 1000%;
+[data-theme=wedding] #hero h1,
+[data-theme=wedding] #hero h2 {
+  display: block;
+  margin: 0;
+  color: black;
+  position: relative;
+  z-index: 50;
+  transition: font-size .2s ease-in-out;
 }
-
-[data-theme=wedding] h5 {
-  font-size: 500%;
+[data-theme=wedding] #hero h1{
+  font-size: 400%;
+  text-shadow: rgba(0,0,0,.5) 0 1px 1px, rgba(0,0,0,.5) 0 5px 15px;
+}
+[data-theme=wedding] #hero h1,
+[data-theme=wedding] #hero h1 a {
+  color: white;
+}
+[data-theme=wedding] #hero h2 {
+  font-size: 125%;
+  font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  color: #673914;
+  color: lightcyan;
+  text-shadow: rgba(0,0,0,.15) 0 1px 0;
+}
+@media (min-width: 500px){
+  [data-theme=wedding] #hero h1 {
+    font-size: 650%;
+  }
+  [data-theme=wedding] #hero h2 {
+    font-size: 150%;
+  }
+}
+@media (min-width: 800px){
+  [data-theme=wedding] #hero h1 {
+    font-size: 900%;
+  }
+  [data-theme=wedding] #hero h2 {
+    font-size: 200%;
+  }
 }
 
 /* Fix for brand-less mobile navigation */
@@ -35,4 +100,23 @@
   [data-nav] label[for=menu] {
     z-index: 500;
   }
+}
+
+/* blockquote Style */
+[data-theme=wedding] blockquote {
+  text-align: center;
+}
+[data-theme=wedding] blockquote:before {
+  display: none;
+}
+[data-theme=wedding] blockquote p,
+[data-theme=wedding] blockquote q {
+  font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #999;
+}
+
+[data-theme=wedding] main {
+  padding-top: 0;
 }

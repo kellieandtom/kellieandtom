@@ -14,7 +14,7 @@
 </style>
 <h1>TOP SECRET</h1>
 <h2>Update <code>kellieandtom</code> using the button below</h2>
-<form class="actions" action="pull.php" method="post">
+<form action="pull.php" method="post">
   <button data-button=blue type="submit">git pull</button>
 </form>
 <script>
