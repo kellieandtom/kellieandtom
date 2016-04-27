@@ -6,36 +6,24 @@
 <?php include("inc/header.php"); ?>
 
 <h2>Accommodations</h2>
-<p>There are many great hotel options in the downtown Buffalo area. Here is a list of hotels at varying price points,
-all extremely close to our wedding location! All of the hotels we've listed here are highly rated.</p>
-
-<h3>Chain Hotels</h3>
-
-<h4><a href="http://hibuffalodowntown.com/">Holiday Inn - Buffalo Downtown</a></h4>
-<p>Rooms starting at $120 USD</p>
-<p><strong>1/2 mile</strong> from ceremony site, 2 miles from reception site</p>
-
-<h4><a href="http://book.bestwestern.com/bestwestern/US/NY/Buffalo-hotels/BEST-WESTERN-On-The-Avenue/Hotel-Overview.do?propertyCode=33035">Best Western on the Avenue</a></h4>
-<p>Rooms starting at $130 USD</p>
-<p><strong>1/2 mile</strong> from ceremony site, 2 miles from reception site</p>
-
-<h4><a href="http://hamptoninn3.hilton.com/en/hotels/new-york/hampton-inn-and-suites-buffalo-downtown-BUFDTHX/index.html">Hampton Inn & Suites - Buffalo Downtown</a></h4>
-<p>Rooms starting at $200 USD</p>
-<p>1 mile from ceremony site, 1 mile from reception site</p>
+<p>We have reserved room blocks for our wedding guests at two different downtown Buffalo hotels. You can book rooms at either hotel online by using our group code (which is "MHW"), or calling and asking to book a room for the Morgan-Hodgins Wedding.</p>
 
 <h4><a href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-club-by-hilton-hotel-buffalo-downtown-BUFNYDT/index.html">Doubletree Club by Hilton - Buffalo Downtown</a></h4>
-<p>Rooms starting at $135 USD</p>
+<p>Block rate: $120/night</p>
 <p>1 mile from ceremony site, 3 miles from reception site</p>
+<p>Must book by September 10th to receive block rate</p>
 
 <h4><a href="http://embassysuites3.hilton.com/en/hotels/new-york/embassy-suites-by-hilton-buffalo-BUFESES/index.html">Embassy Suites Buffalo</a></h4>
-<p>Rooms starting at $185 USD</p>
+<p>Block rate: $119/night</p>
 <p>1 mile from ceremony site, 1 mile from reception site</p>
+
+<p><strong>Must book by October 5th to receive block rate</strong></p>
+
+<h3>Other Hotels</h3>
 
 <h4><a href="http://www.marriott.com/hotels/travel/bufbd-buffalo-downtown-marriott/">Buffalo Mariott Harborcenter</a></h4>
 <p>Rooms starting at $230</p>
 <p>2 miles from ceremony site, 1/2 mile from reception site</p>
-
-<h3>Unique/Luxury/Boutique Hotels</h3>
 
 <h4><a href="http://www.mansionondelaware.com/">The Mansion on Delaware</a></h4>
 <p>Rooms starting at $275 USD</p>
