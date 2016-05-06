@@ -10,7 +10,6 @@
 <p><strong>Templeton Landing</strong></p>
 <p>2 Templeton Terrace</p>
 <p>Buffalo, NY</p>
-<p>Cocktail hour at 4:30, reception at 5:30</p>
 <img src="img/templetonlanding-image.jpg" class="float-none">
 
 <h3>Parking</h3>

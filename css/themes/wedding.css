@@ -5,17 +5,21 @@
 
 /* Set Headings to Ameliascript font */
 [data-theme=wedding] h1,
+[data-theme=wedding] h2,
 [data-theme=wedding] h5 {
   font-weight: normal;
   letter-spacing: 0;
   margin-bottom: 0;
   font-family: 'ameliascript-fine', alegance, 'Playfair Display', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
-[data-theme=wedding] h2,
+[data-theme=wedding] h2 {
+  font-size: 400%;
+}
 [data-theme=wedding] h3,
 [data-theme=wedding] h4 {
   font-weight: 400;
    font-family: Lora, 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+   margin-top: 1  em;
 }
 [data-theme=wedding] p:after,
 [data-theme=wedding] h2:before {
@@ -74,7 +78,6 @@
 [data-theme=wedding] #hero h2 {
   font-size: 125%;
   font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
-  color: #673914;
   color: lightcyan;
   text-shadow: rgba(0,0,0,.15) 0 1px 0;
 }
@@ -116,7 +119,70 @@
   font-weight: 400;
   color: #999;
 }
+@media (max-width: 500px) {
+  [data-theme=wedding] blockquote {
+    margin-top: 3em;
+  }
+}
 
 [data-theme=wedding] main {
   padding-top: 0;
 }
+
+/* Making Links and Nav links blue */
+[data-theme=wedding] a,
+[data-theme=wedding] [data-nav] label > span,
+[data-theme=wedding] [data-nav] label span a,
+[data-theme=wedding] [data-nav] label > div a {
+  color: #60a4b5;
+}
+
+[data-theme=wedding] a:hover,
+[data-theme=wedding] a:focus,
+[data-theme=wedding] [data-nav] label > span:hover,
+[data-theme=wedding] [data-nav] label > span:focus,
+[data-theme=wedding] [data-nav] label span:hover,
+[data-theme=wedding] [data-nav] label span:focus,
+[data-theme=wedding] [data-nav] a:hover,
+[data-theme=wedding] [data-nav] a:focus,
+[data-theme=wedding] [data-nav] input:checked + label span {
+  color: #7ec2d3;
+}
+@media (max-width: 499px) {
+  [data-theme=wedding] [data-nav] input#menu:checked + label span {
+    color: #60a4b5;
+  }
+}
+
+/* Restricting floated images from growing too large */
+[data-theme=wedding] img[class^=float-] {
+  border-radius: 2px;
+}
+@media (min-width: 500px) {
+  [data-theme=wedding] img.float-left,
+  [data-theme=wedding] img.float-right {
+    max-width: 33.33%;
+  }
+}
+
+/* Party page styling */
+[data-theme=wedding] main .party,
+[data-theme=wedding] main .party li {
+  list-style: none;
+  padding: 0;
+}
+[data-theme=wedding] main .party li {
+  font-size: 140%;
+}
+[data-theme=wedding] main .party li + li {
+  padding-top: .25em;
+}
+[data-theme=wedding] main p span,
+[data-theme=wedding] main .party li span {
+  font-size: 12pt;
+  opacity: .7;
+  margin-left: .25em;
+}
+
+/* brown color: #483e3f; */
+/* blue color: #7ec2d3; */

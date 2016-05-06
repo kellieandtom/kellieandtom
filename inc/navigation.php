@@ -22,6 +22,7 @@
     <div>
       <a href=<?php echo $site; ?>/ceremony.php>Ceremony</a>
       <a href=<?php echo $site; ?>/reception.php>Reception</a>
+      <a href=<?php echo $site; ?>/wedding-party.php>Wedding Party</a>
     </div>
   </label>
 

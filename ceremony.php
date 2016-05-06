@@ -9,7 +9,6 @@
 
 <p><strong>Karpeles Manuscript Library Museum, North Hall</strong></p>
 <p>220 North Street, Buffalo, New York</p>
-<p>Ceremony begins at 3PM</p>
 <img src="img/museumphoto.jpg" class="float-none">
 
 <h3>Parking</h3>

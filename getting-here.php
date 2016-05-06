@@ -9,7 +9,7 @@
 
 <h3>Buffalo-Niagara International Airport (BUF)</h3>
 
-<p>The Buffalo airport is a very affordable airport to fly to. The airport is a 20–minute drive from downtown Buffalo. It sis not necessary to rent a car. Taxis are readily available to be hailed or called in downtown Buffalo. A taxi ride from the airport will cost about $50 each direction, so we would recommend checking with your hotel first as many downtown Buffalo hotels have an airport shuttle service. You can also book a shuttle through <a href="http://www.buffaloairporttaxi.com/our-services">Buffalo Airport Taxi</a> to take you to downtown Buffalo for $21 each way.</p>
+<p>The Buffalo airport is a very affordable airport to fly to. The airport is a 20 minute drive from downtown Buffalo. It is not necessary to rent a car. Taxis are readily available to be hailed or called in downtown Buffalo. A taxi ride from the airport will cost about $50 each direction, so we would recommend checking with your hotel first, as many downtown Buffalo hotels have an airport shuttle service. You can also book a shuttle through <a href="http://www.buffaloairporttaxi.com/our-services">Buffalo Airport Taxi</a> to take you to downtown Buffalo for $21 each way.</p>
 
 <h3>Crossing the border</h3>
 
